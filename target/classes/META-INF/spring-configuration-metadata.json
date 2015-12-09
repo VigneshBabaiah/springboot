@@ -1,0 +1,21 @@
+{
+  "groups": [
+    {
+      "name": "cassandra",
+      "type": "com.css.repository.OpsConfig",
+      "sourceType": "com.css.repository.OpsConfig"
+    },
+    {
+      "name": "spring.datasource.test",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.css.repository.TestConfig",
+      "sourceMethod": "public javax.sql.DataSource dataSource() "
+    },
+    {
+      "name": "spring.datasource.test",
+      "type": "com.css.repository.TestConfig",
+      "sourceType": "com.css.repository.TestConfig"
+    }
+  ],
+  "properties": []
+}
